@@ -1,7 +1,12 @@
 body {
-    background-color: black;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    background-image: url('../img/bone-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    background-size: 79% 100%;
+    background-position: 110%
 }
 
 .mainHeader {
@@ -15,4 +20,8 @@ body {
 .mainHeader-center span {
     margin-right: 2.7rem;
     font-size: 1.2rem;
+}
+
+.element-center {
+    display: flex;
 }
