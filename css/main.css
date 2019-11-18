@@ -5,23 +5,78 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: black;
-    background-size: 79% 100%;
-    background-position: 110%
+    background-size: 79%;
+    background-position: 100%
+}
+
+ul {
+    list-style-type: none;
+}
+
+.btn {
+    margin-top: 1rem;
+    margin-right: 0.8rem;
+}
+
+.btn button {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 0.1rem;
+    border: 1px solid rgb(61, 61, 61);
+    width: 6.3rem;
+    height: 1.5rem;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    margin-left: 0.3rem;
 }
 
 .mainHeader {
     font-weight: bold;
     width: 100%;
-    margin-top: 2.0rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
+    font-size: 1.2rem;
 }
 
 .mainHeader-center span {
     margin-right: 2.7rem;
-    font-size: 1.2rem;
 }
 
 .element-center {
     display: flex;
+    justify-content: space-between;
+    margin-top: 11rem;
+}
+
+.bar {
+    background-color: white;
+    width: 0.2rem;
+    height: 5.2rem;
+    border-radius: 0.5rem;
+    flex-direction: column;
+}
+
+.nick-name {
+    font-weight: bold;
+    font-size: 2.7rem;
+}
+
+.element-right {
+    margin-left: 10rem;
+}
+
+.element-right ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.over-right li {
+    margin-left: 1rem;
+}
+
+.about-me {
+    color: gray;
+    font-weight: bold;
+    padding-left: 0.2rem;
 }
