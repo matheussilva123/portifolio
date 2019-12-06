@@ -6,7 +6,8 @@ body {
     background-attachment: fixed;
     background-color: black;
     background-size: 79%;
-    background-position: 100%
+    background-position: 100%;
+    margin: 0;
 }
 
 ul {
@@ -185,4 +186,27 @@ ul {
     color: gray;
     font-weight: bold;
     padding-left: 0.2rem;
+}
+
+.space {
+    margin-top: 10px;
+}
+
+.element-i b {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.rectangle {
+    background-color: green;
+    min-width: 50%;
+    min-height: 110px;
+    border-radius: 10px;
+}
+
+.rectangle-div-father {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 176px;
 }
