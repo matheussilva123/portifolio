@@ -7,12 +7,67 @@ body {
     background-color: black;
     background-size: 79%;
     background-position: 100%;
-    margin: 0;
+    margin: 14px 14px 0px 14px;
+    padding: 0;
+}
+
+h3 {
+    font-size: 14px;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+p {
+    font-size: 12px;
 }
 
 ul {
     list-style-type: none;
 }
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+a:hover {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.margin-left {
+    margin-left: 40px;
+}
+
+.letter-bold {
+    font-weight: bold;
+}
+
+.margin-right {
+    margin-right: 40px;
+}
+
+.margin-right span {
+    margin-right: 40px;
+}
+
+.margin-right p {
+    margin-right: 40px;
+}
+
+.letter-bold.margin-right {
+    margin-right: 40px;
+}
+
+.display-flex {
+    display: flex;
+    margin-bottom: 5px;
+    ;
+}
+
+
+/* ---------- CODE REUSE ----------   */
 
 .element-i b {
     color: gray;
@@ -42,16 +97,8 @@ ul {
     margin-left: 1px;
 }
 
-.horizontal-bar-join {
-    display: flex;
-}
-
 .element-i {
     margin-right: 45px;
-}
-
-.moving-center-right li {
-    font-weight: bold;
 }
 
 .btn-header {
@@ -85,7 +132,6 @@ ul {
 .hamburguer-btn {
     width: 19px;
     height: 20px;
-    margin-right: 14px;
 }
 
 .hamburguer-btn1 {
@@ -130,24 +176,15 @@ ul {
 .mainHeader {
     font-weight: bold;
     width: 100%;
-    margin-top: 25px;
     display: flex;
     justify-content: space-between;
     font-size: 1.2rem;
 }
 
-.mainHeader span {
-    margin-right: 40px;
-}
-
 .mainHeader a {
     text-decoration: none;
-    margin-left: 14px;
     color: white;
-}
-
-.mainHeader-center span {
-    margin-right: 2.7rem;
+    font-size: 20px;
 }
 
 .element-center {
@@ -198,10 +235,13 @@ ul {
 }
 
 .rectangle {
-    background-color: green;
-    min-width: 50%;
-    min-height: 110px;
+    background-color: #272927;
+    max-width: 45%;
+    height: 104px;
+    max-height: 110px;
     border-radius: 10px;
+    padding: 3px;
+    opacity: 0.8;
 }
 
 .rectangle-div-father {
@@ -209,4 +249,27 @@ ul {
     display: flex;
     justify-content: center;
     margin-top: 176px;
+}
+
+.rectangle-position {
+    margin: 0;
+    padding: 0;
+}
+
+.rectangle-position li p {
+    margin: 0;
+    margin-left: 8px;
+}
+
+.rectangle-position li a {
+    margin: 0;
+    margin-left: 8px;
+}
+
+.second-bar.bar {
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 6px;
+    width: 2px;
+    background-color: gray;
 }
