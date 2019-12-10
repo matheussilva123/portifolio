@@ -17,6 +17,10 @@ h3 {
     margin-top: 5px;
 }
 
+h5 {
+    text-decoration: underline;
+}
+
 p {
     font-size: 12px;
 }
@@ -68,6 +72,10 @@ span {
     display: flex;
     margin-bottom: 5px;
     ;
+}
+
+.no-border {
+    border: 0;
 }
 
 
@@ -280,4 +288,5 @@ span {
 
 .modal-portifolio {
     background-color: #2c2d30;
+    opacity: 0.9;
 }
