@@ -257,10 +257,11 @@ span {
 }
 
 .rectangle-div-father {
-    max-width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 176px;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
 }
 
 .rectangle-position {
