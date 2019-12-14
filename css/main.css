@@ -1,0 +1,288 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-image: url('../img/bone-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    background-size: 79%;
+    background-position: 100%;
+    margin: 14px 14px 0px 14px;
+    padding: 0;
+}
+
+h3 {
+    font-size: 14px;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+h5 {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 12px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+a:hover {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+span {
+    color: white;
+}
+
+.margin-left {
+    margin-left: 40px;
+}
+
+.letter-bold {
+    font-weight: bold;
+}
+
+.margin-right {
+    margin-right: 40px;
+}
+
+.margin-right span {
+    margin-right: 40px;
+}
+
+.margin-right p {
+    margin-right: 40px;
+}
+
+.letter-bold.margin-right {
+    margin-right: 40px;
+}
+
+.display-flex {
+    display: flex;
+    margin-bottom: 5px;
+    ;
+}
+
+.no-border {
+    border: 0;
+}
+
+
+/* ---------- CODE REUSE ----------   */
+
+.element-i b {
+    color: gray;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.moving-center-right ul {
+    margin-right: 190px;
+    height: 50px;
+    width: 177px;
+    padding: 0;
+}
+
+.element-one {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+
+.element-one b {
+    font-size: 12px;
+}
+
+.element-left-view {
+    margin-top: 4px;
+    margin-left: 1px;
+}
+
+.element-i {
+    margin-right: 45px;
+}
+
+.btn-header {
+    background: transparent;
+    border: 0 solid;
+    cursor: pointer;
+}
+
+.horizontal-bar-gray {
+    width: 162px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.horizontal-bar-white {
+    width: 55px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: -162px;
+}
+
+.element-left {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hamburguer-btn1 {
+    background-color: white;
+    width: 32px;
+    height: 4px;
+    border-radius: 7px;
+}
+
+.hamburguer-btn2 {
+    background-color: white;
+    width: 26px;
+    height: 4px;
+    border-radius: 7px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 6px;
+}
+
+.moving-btn {
+    margin-top: 4px;
+}
+
+.btn {
+    margin-top: 1rem;
+    margin-right: 0.8rem;
+}
+
+.btn button {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 0.1rem;
+    border: 1px solid rgb(61, 61, 61);
+    width: 6.3rem;
+    height: 1.5rem;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    margin-left: 0.3rem;
+    cursor: pointer;
+}
+
+.mainHeader {
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+.mainHeader a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.element-center {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11rem;
+}
+
+.bar {
+    background-color: white;
+    width: 0.2rem;
+    height: 5.2rem;
+    border-radius: 0.5rem;
+    flex-direction: column;
+}
+
+.nick-name {
+    font-weight: bold;
+    font-size: 2.7rem;
+}
+
+.element-right {
+    margin-left: 10rem;
+}
+
+.element-right ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.over-right li {
+    margin-left: 1rem;
+}
+
+.about-me {
+    color: gray;
+    font-weight: bold;
+    padding-left: 0.2rem;
+}
+
+.space {
+    margin-top: 10px;
+}
+
+.element-i b {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.rectangle {
+    background-color: #272927;
+    max-width: 45%;
+    height: 104px;
+    max-height: 110px;
+    border-radius: 10px;
+    padding: 3px;
+    opacity: 0.8;
+}
+
+.rectangle-div-father {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+}
+
+.rectangle-position {
+    margin: 0;
+    padding: 0;
+}
+
+.rectangle-position li p {
+    margin: 0;
+    margin-left: 8px;
+}
+
+.rectangle-position li a {
+    margin: 0;
+    margin-left: 8px;
+}
+
+.second-bar.bar {
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 6px;
+    width: 2px;
+    background-color: gray;
+}
+
+.modal-portifolio {
+    background-color: #2c2d30;
+    opacity: 0.9;
+}
